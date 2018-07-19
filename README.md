@@ -34,7 +34,7 @@ To run the individual application, do either `cd apps/elixirjob_apply && mix run
 
 1. **RabbitMQ**
 
-The applications need a RabbitMQ instance with a specific binding.
+The applications need running a RabbitMQ instance with a specific binding.
 The instance itself is configured in the
 [/apps/elixirjob_apply/config/config.exs](/apps/elixirjob_apply/config/config.exs)
 and [/apps/elixirjob_hire/config/config.exs](/apps/elixirjob_hire/config/config.exs). Currently the files
