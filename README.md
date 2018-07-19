@@ -4,7 +4,8 @@ This is a toy Elixir application implementing a somewhat contrived use case
 of applying for a job via the command line interface.
 
 It is actually an umbrella project which includes 2 applications:
-# **elixirjob_apply** - can be used
+1. **elixirjob_apply**
+can be used
 
 created in order to learn the language's syntax,
 and also try out following things:
