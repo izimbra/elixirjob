@@ -45,6 +45,6 @@ To create the binding, you can run the [rabbitmq_binding.sh](rabbitmq_binding.sh
 
 2. **SMTP server**
 
-In order to send emails using the [mailer](https://hex.pm/packages/mailer) packag,
+In order to send emails using the [mailer](https://hex.pm/packages/mailer) package,
 SMTP parameters must be provided in the file [/apps/elixirjob_hire/config/config.exs](/apps/elixirjob_hire/config/config.exs).
 There is currently an example configuration for Gmail.
