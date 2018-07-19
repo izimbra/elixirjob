@@ -11,8 +11,9 @@ Some of the things I wanted to try:
 * learn language syntax
 * protocol implementation (see [jobapp.ex](/apps/elixirjob_common/lib/jobapp.ex))
 * create an umbrella project in Mix
-* use application settings file
-*
+* retrieve application settings from a `config.exs` file
+* send and receive messages using RabbitMQ (using [amqp](https://hex.pm/packages/amqp))
+* send emails (using [mailer](https://hex.pm/packages/mailer))
 
 
 
