@@ -40,6 +40,11 @@ The instance itself is configured in the
 and [/apps/elixirjob_hire/config/config.exs](/apps/elixirjob_hire/config/config.exs). Currently the files
 use the default `localhost` configuration.
 
-To create the binding, you can run the `rabbitmq_binding.sh` scipt (`rabbitmqadmin` must be in yout PATH).
+To create the binding, you can run the `rabbitmq_binding.sh` script (`rabbitmqadmin` must be in yout PATH).
 
 
+2. **SMTP server**
+
+In order to send emails using the [mailer](https://hex.pm/packages/mailer) packag,
+SMTP parameters must be provided in the file [/apps/elixirjob_hire/config/config.exs](/apps/elixirjob_hire/config/config.exs).
+There is currently an example configuration for Gmail.
