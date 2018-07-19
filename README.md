@@ -40,7 +40,7 @@ The instance itself is configured in the
 and [/apps/elixirjob_hire/config/config.exs](/apps/elixirjob_hire/config/config.exs). Currently the files
 use the default `localhost` configuration.
 
-To create the binding, you can run the `rabbitmq_binding.sh` script (`rabbitmqadmin` must be in yout PATH).
+To create the binding, you can run the [rabbitmq_binding.sh](rabbitmq_binding.sh) script (`rabbitmqadmin` must be in yout PATH).
 
 
 2. **SMTP server**
