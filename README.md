@@ -8,10 +8,11 @@ It is actually an umbrella project which includes 2 applications:
 2. [elixirjob_hire](/apps/elixirjob_hire) - used to received job applications and send confirmation emails
 
 Some of the things I wanted to try:
-* learn language syntax
+* learn basics of the language syntax
 * protocol implementation (see [jobapp.ex](/apps/elixirjob_common/lib/jobapp.ex))
 * create an umbrella project in Mix
 * retrieve application settings from a `config.exs` file
+* encode/decode BSON data (using [cyanide](https://hex.pm/packages/cyanide))
 * send and receive messages using RabbitMQ (using [amqp](https://hex.pm/packages/amqp))
 * send emails (using [mailer](https://hex.pm/packages/mailer))
 
@@ -31,6 +32,8 @@ To run the individual application, do either `cd apps/elixirjob_apply && mix run
 
 ## Runtime dependencies
 
+**RabbitMQ**
+The applications need a RabbitMQ instance with a specific binding. The instance intself is configured
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
 
