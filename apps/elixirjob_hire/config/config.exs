@@ -28,8 +28,8 @@ use Mix.Config
 
      config :mailer, :smtp_client,
        server:    "smtp.gmail.com",
-       username:  "groszchic@gmail.com",
-       password:  "lacxwnzjndcvenzv", #https://myaccount.google.com/apppasswords
+       username:  "YOUR_USERNAME@gmail.com",
+       password:  "YOUR_APP_PASSWORD", #https://myaccount.google.com/apppasswords
        transport: :smtp,
        ssl:       :true,
        tls:       :if_available,
