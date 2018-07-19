@@ -8,11 +8,12 @@ It is actually an umbrella project which includes 2 applications:
 2. [elixirjob_hire](/apps/elixirjob_hire) - used to received job applications and send confirmation emails
 
 Some of the things I wanted to try:
+* learn language syntax
+* protocol implementation (see [jobapp.ex](/apps/elixirjob_common/lib/jobapp.ex))
 * create an umbrella project in Mix
-* created in order to learn the language's syntax,
-and also try out following things:
-* protocol implementation (see [jobapp.ex](/apps/elixir_common/lib/jobapp.ex))
+* use application settings file
 *
+
 
 
 ## Building & running
@@ -21,8 +22,14 @@ This project was last compiled using Elixir 1.6.6. However, due to the dependenc
 using the function `ssl:ssl_accept/3`, which was deprecated in the latest Erlang/OTP 21, you will need
 to use Erlang/OTP 20 in order for the app to compile.
 
+To build everything, do `mix deps.get && mix deps.compile --all && mix compile`
 
-Due to one of the dependencies
+To run the individual application, do either `cd apps/elixirjob_apply && mix run` or `cd apps/elixirjob_hire && mix run`.
+
+
+
+## Runtime dependencies
+
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
 
