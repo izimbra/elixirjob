@@ -32,20 +32,10 @@ To run the individual application, do either `cd apps/elixirjob_apply && mix run
 
 ## Runtime dependencies
 
-**RabbitMQ**
-The applications need a RabbitMQ instance with a specific binding. The instance intself is configured
+1. **RabbitMQ**
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+The applications need a RabbitMQ instance with a specific binding.
+The instance itself is configured in the [/apps/elixirjob_apply/config/config.exs]
+and [/apps/elixirjob_hire/config/config.exs].
 
-  1. Add  to your list of dependencies in `mix.exs`:
-
-        def deps do
-          [{:, "~> 0.0.1"}]
-        end
-
-  2. Ensure  is started before your application:
-
-        def application do
-          [applications: [:]]
-        end
 
